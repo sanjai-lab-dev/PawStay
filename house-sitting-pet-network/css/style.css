@@ -179,13 +179,12 @@ img {
 
 .hero-photo {
   position: relative;
-  min-height: 24rem;
-  aspect-ratio: 4 / 3;
+  min-height: 20rem;
+  aspect-ratio: 5 / 3;
   border-radius: 0.75rem;
   overflow: hidden;
   background-image:
-    linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.18)),
-    url("../assets/Photo-home.jpg");
+    linear-gradient(180deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.18));
   background-position: center;
   background-size: cover;
   box-shadow: var(--shadow);
