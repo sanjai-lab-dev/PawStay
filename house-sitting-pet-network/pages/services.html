@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="../assets/logo.png" />
+    <title>Services | PawStay Network</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body data-page="services">
+
+    <!-- Header -->
+    <header class="site-header fixed-top">
+      <nav class="container py-3">
+        <div class="d-flex align-items-center justify-content-between gap-3">
+
+          <a class="d-flex align-items-center gap-2 fw-bold fs-5"
+            href="../index.html">
+            <span class="brand-mark">P</span>
+            <span>PawStay</span>
+          </a>
+
+          <!-- Desktop Navigation -->
+          <div class="d-none d-lg-flex align-items-center gap-1">
+            <a class="nav-link" data-current-page="home"
+              href="../index.html">Home</a>
+
+            <a class="nav-link" data-current-page="about"
+              href="about.html">About</a>
+
+            <a class="nav-link" data-current-page="services"
+              href="services.html">Services</a>
+
+            <a class="nav-link" data-current-page="find"
+              href="find-sitter.html">Find a Pet Sitter</a>
+
+            <a class="nav-link" data-current-page="become"
+              href="become-sitter.html">Become a Pet Sitter</a>
+
+            <a class="nav-link" data-current-page="pricing"
+              href="pricing.html">Pricing</a>
+
+            <a class="nav-link" data-current-page="contact"
+              href="contact.html">Contact</a>
+          </div>
+
+          <div class="d-flex align-items-center gap-2">
+            <button
+              class="theme-toggle"
+              type="button"
+              data-theme-toggle
+              aria-label="Toggle theme">
+            </button>
+
+            <button
+              class="menu-toggle d-lg-none"
+              type="button"
+              data-menu-toggle
+              aria-expanded="false"
+              aria-label="Open menu">
+              <i class="bi bi-list"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div
+          class="mobile-panel hidden mt-3 rounded-3 p-2 d-lg-none"
+          data-mobile-menu>
+
+          <a class="nav-link d-block" data-current-page="home"
+            href="../index.html">Home</a>
+
+          <a class="nav-link d-block" data-current-page="about"
+            href="about.html">About</a>
+
+          <a class="nav-link d-block" data-current-page="services"
+            href="services.html">Services</a>
+
+          <a class="nav-link d-block" data-current-page="find"
+            href="find-sitter.html">Find a Pet Sitter</a>
+
+          <a class="nav-link d-block" data-current-page="become"
+            href="become-sitter.html">Become a Pet Sitter</a>
+
+          <a class="nav-link d-block" data-current-page="pricing"
+            href="pricing.html">Pricing</a>
+
+          <a class="nav-link d-block" data-current-page="contact"
+            href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+      <!-- Hero Section -->
+      <section class="page-hero">
+        <div class="container">
+          <div class="row g-5 align-items-center">
+
+            <div class="col-lg-6 reveal">
+              <p class="eyebrow mb-2">Services</p>
+
+              <h1 class="display-5 fw-bold">
+                Care options that fit your pet, home, and schedule.
+              </h1>
+
+              <p class="lead muted">
+                From weekend boarding to extended house sitting,
+                PawStay helps you choose the right care style.
+              </p>
+            </div>
+
+            <div class="col-lg-6 reveal">
+              <div
+                class="page-hero-photo photo-services bg-top"
+                role="img"
+                aria-label="Small dog relaxing with a sitter">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section class="section soft-surface">
+        <div class="container">
+          <div class="row g-4">
+
+            <!-- Overnight House Sitting -->
+            <div class="col-md-6 col-xl-4 reveal">
+              <div class="card-lite">
+                <span class="icon-chip">
+                  <i class="bi bi-house-heart"></i>
+                </span>
+
+                <h2 class="h5 fw-bold">
+                  Overnight House Sitting
+                </h2>
+
+                <p class="muted">
+                  A trusted sitter stays in your home and follows
+                  your pet's exact routine.
+                </p>
+
+                <a class="btn-soft mt-2"
+                  href="find-sitter.html">
+                  Search Sitters
+                </a>
+              </div>
+            </div>
+
+            <!-- Pet Boarding -->
+            <div class="col-md-6 col-xl-4 reveal">
+              <div class="card-lite">
+                <span class="icon-chip">
+                  <i class="bi bi-door-open"></i>
+                </span>
+
+                <h2 class="h5 fw-bold">
+                  Pet Boarding
+                </h2>
+
+                <p class="muted">
+                  Your pet stays in a host's home with
+                  personalized attention and photo updates.
+                </p>
+
+                <a class="btn-soft mt-2"
+                  href="pricing.html">
+                  View Rates
+                </a>
+              </div>
+            </div>
+
+            <!-- Drop-in Visits -->
+            <div class="col-md-6 col-xl-4 reveal">
+              <div class="card-lite">
+                <span class="icon-chip">
+                  <i class="bi bi-stopwatch"></i>
+                </span>
+
+                <h2 class="h5 fw-bold">
+                  Drop-in Visits
+                </h2>
+
+                <p class="muted">
+                  Short visits for meals, medication,
+                  litter care, playtime, and check-ins.
+                </p>
+
+                <a class="btn-soft mt-2"
+                  href="contact.html">
+                  Ask a Question
+                </a>
+              </div>
+            </div>
+
+            <!-- Dog Walking -->
+            <div class="col-md-6 col-xl-4 reveal">
+              <div class="card-lite">
+                <span class="icon-chip">
+                  <i class="bi bi-tree"></i>
+                </span>
+
+                <h2 class="h5 fw-bold">
+                  Dog Walking
+                </h2>
+
+                <p class="muted mb-0">
+                  Book walks for high-energy dogs or regular
+                  midday exercise.
+                </p>
+              </div>
+            </div>
+
+            <!-- Medication Support -->
+            <div class="col-md-6 col-xl-4 reveal">
+              <div class="card-lite">
+                <span class="icon-chip">
+                  <i class="bi bi-capsule"></i>
+                </span>
+
+                <h2 class="h5 fw-bold">
+                  Medication Support
+                </h2>
+
+                <p class="muted mb-0">
+                  Filter for sitters experienced with senior pets
+                  and medication routines.
+                </p>
+              </div>
+            </div>
+
+            <!-- Home Care Extras -->
+            <div class="col-md-6 col-xl-4 reveal">
+              <div class="card-lite">
+                <span class="icon-chip">
+                  <i class="bi bi-flower1"></i>
+                </span>
+
+                <h2 class="h5 fw-bold">
+                  Home Care Extras
+                </h2>
+
+                <p class="muted mb-0">
+                  Mail collection, plant watering,
+                  light tidying, and home security checks.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer section-tight">
+      <div class="container">
+
+        <div class="row g-4">
+
+          <div class="col-md-6">
+            <div class="d-flex align-items-center gap-2 fw-bold fs-5 mb-3">
+              <span class="brand-mark">P</span>
+              <span>PawStay</span>
+            </div>
+
+            <p class="mb-0">
+              Trusted house sitting and pet boarding
+              for modern pet families.
+            </p>
+          </div>
+
+          <div class="col-md-3">
+            <a class="d-block mb-2" href="about.html">About</a>
+            <a class="d-block mb-2" href="pricing.html">Pricing</a>
+            <a class="d-block" href="contact.html">Contact</a>
+          </div>
+
+          <div class="col-md-3">
+            <a class="d-block mb-2" href="find-sitter.html">
+              Find a Sitter
+            </a>
+
+            <a class="d-block" href="become-sitter.html">
+              Become a Sitter
+            </a>
+          </div>
+
+        </div>
+
+        <hr class="border-secondary my-4" />
+
+        <p class="mb-0 small">
+          &copy; 2026 PawStay Network. All rights reserved.
+        </p>
+
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+
+  </body>
+
+</html>
