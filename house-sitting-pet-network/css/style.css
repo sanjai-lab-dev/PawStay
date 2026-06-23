@@ -19,13 +19,13 @@
 /* Dark Theme */
 html.dark {
   color-scheme: dark;
-  --bg: #101614;
+  --bg: #133634;
   --surface: #17201d;
   --surface-2: #1e2a26;
   --text: #eef7f3;
   --muted: #adbbb6;
   --primary: #58d7af;
-  --primary-strong: #7de6c3;
+  --primary-strong:#49f719;
   --accent: #ffab7b;
   --accent-2: #9cb8ff;
   --border: rgba(238, 247, 243, 0.14);
@@ -131,7 +131,7 @@ img {
 
 .btn-main {
   background: var(--primary-strong);
-  color: white;
+  color:var(--bg);
   box-shadow: 0 14px 30px
     color-mix(in srgb, var(--primary) 25%, transparent);
 }
